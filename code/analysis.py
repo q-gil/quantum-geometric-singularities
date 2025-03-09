@@ -17,8 +17,7 @@ from typing import Tuple, List, Dict, Any, Optional, Union, Callable
 
 from tensor_network import TensorNetwork, create_measurement_operator, critical_gamma
 from measurement_operators import MeasurementOperator, scan_gamma_values, scan_phase_space
-from geometric_measures import GeometricMeasures, calculate_distance_table, calculate_quantum_curvature
-
+from geometric_measures import GeometricMeasures
 
 def analyze_critical_point(mu0: float = 0.5, 
                           gamma_range: Tuple[float, float] = (-0.5, 0.5), 
